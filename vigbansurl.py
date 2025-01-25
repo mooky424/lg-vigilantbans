@@ -2,9 +2,10 @@ import time
 import ngrok
 
 # 1. Make sure Vigilant Bans is running on PC (http://localhost:3000/?backend=ws://localhost:8999)
-# 2. Get an authtoken from https://dashboard.ngrok.com
+# 2. Get an authtoken from https://dashboard.ngrok.com/get-started/your-authtoken
 # 3. Replace authtoken string with generated authtoken
 # 4. Run Python file
+# 5. Ctrl+C to stop 
 
 authtoken = "[INSERT AUTH TOKEN HERE]"
 
